@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+/*font-family: 'Satisfy', cursive;
+font-family: 'IBM Plex Mono', monospace;
+font-family: 'Roboto', sans-serif;*/
+
+#css-zen-garden {
+    text-align: justify;
+}
+.page-wrapper [role="article"] {
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+abbr {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    text-shadow: 2px 6px #000000;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.h2 [role="banner"] {
+    background: url(/img/zen.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 10px;
+    font-family:  'Satisfy', cursive;;
+}
+
+.intro [role="banner"] {
+    padding: 50px;
+    color: #ffffff;
+    text-align: center;
+    background-image: url(/img/huntington.png);
+    background-repeat: no-repeat;
+    background-position: 40%;
+    background-size: cover;
+    vertical-align: middle;
+}
+
+.summary {
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.preamble {
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.explanation{
+    font-family: 'IBM Plex Mono', monospace;    
+}
+
+.participation{
+    font-family: 'IBM Plex Mono', monospace;
+    color: #ffffff;
+    background-color: #759d7a;
+    background-image: url(/img/bamboo.png); 
+    padding: 5px ;
+    margin-bottom: -10px;
+}
+.benefits{
+    font-family: 'IBM Plex Mono', monospace;
+    color: #ffffff;
+    background-color: #759d7a;
+    background-image: url(/img/bamboo.png); 
+    padding: 5px;
+
+}
+
+
+.select h3 {
+    visibility: collapse;
+}
+
+.zen-resources {
+    background-color: #759d7a;
+    background-image: url(/img/bamboo.png); 
+}
+
+.requirements [role = "contentinfo"] {
+    background-color: #759d7a;
+    font-family: 'Roboto';
+    color: silver;
+    text-align: center;
+    padding: 60px;
+    margin-bottom: -8px;
+    margin-left: -100px;
+    margin-right: -100px;
+}
+
+
+.requirements [role = "contentinfo"] a {
+    font-family: 'Satisfy', cursive;
+    color: #ffffff;
+    text-align: center;
+    font-size: 35px;
+}
+
+footer {
+    text-align:  center;
+    background-color: #234c4b;
+    text-decoration: none;
+    padding: 50px;
+}
+footer a {
+    color:white
+}
+
+footer a:hover {
+    color: silver;
+}
+
+.sidebar {
+    background-color: #d5e2d6;
+    margin-top: -20px;
+
+}
+
+.sidebar ul{
+    list-style-type: none;
+}
+
+.sidebar h3{
+    display: none;
+}
+
+.wrapper [role="navigation"] ul{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 50px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+
+
+.designer-name {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    color: silver;
+}
+
+.wrapper>ul {
+    border: 2px solid #ffffff
+}
+
+.zen-resources ul{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 30px;
+    text-align: center;
+    color: #234c4b;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+}
+
+i {
+    transform: scale(2,2);
+    width: 60px;    
+    height: auto;
+
+}
